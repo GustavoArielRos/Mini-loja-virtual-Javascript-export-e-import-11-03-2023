@@ -1,0 +1,78 @@
+
+<!-- parei em fazendo as posições dos itens-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja virtual</title>
+
+    <link rel="stylesheet" href="./loja.css">
+</head>
+<body>
+
+    <div id= "Header">
+        
+        <p> oi </p> <p id="titulo_loja"> Supermercado Vitas </p>
+        <p> oi </p>
+        <p> oi </p>
+    </div>
+    <br><br><br><br><br><br>
+    
+    
+    <div class = "Container">
+
+        <img id="foto_ovo" src="/imagem/ovo.png" width="40%" height="40%">
+
+        <div class = "mercadoria-ovo" >
+            <br><br>
+            <h3 > ovos(15 reais 1 caixa ) </h3>
+            <input type="text" placeholder="Digite a quantidade" id="ovo">
+        </div>
+
+        <img id="foto_leite" src="/imagem/leite.png" width="10%" height="20%">
+
+        <div class = "mercadoria-leite">
+            <br><br>
+            <h3 > leite(8 reais 1 unidade) </h3>
+            <input type="text" placeholder="Digite a quantidade" id="leite">
+        </div>
+
+        <img id="foto_pao" src="/imagem/pao.png" width="10%" height="20%">
+
+        <div class = "mercadoria-pao">
+            <br><br><br><br>
+            <h3 > pão(5 reais 1 saco) </h3>
+            <input type="text" placeholder="Digite a quantidade" id="pao">
+        </div>
+
+        <img id="foto_refri" src="/imagem/refrigerante.png" width="10%" height="20%">
+
+        <div class = "mercadoria-refri">
+            <br><br><br><br>
+            <h3 > refrigerante(5 reais 1 unidade) </h3>
+            <input type="text" placeholder="Digite a quantidade" id="refri">
+        </div>
+
+        <div class = "conta">
+            <img>
+            <p id="resultado_titulo">Saldo Total em Reais:</p>
+            <label for="" id="resultado"></label>
+            
+        </div>
+        
+        <button id="verificar">Verificar preço</button>
+        <button id="confirmar">Confirmar</button>
+             
+    </div>
+    
+</body>
+
+<script src="./loja.js" type="module" defer></script>
+
+
+
+
+</html>

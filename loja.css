@@ -1,0 +1,122 @@
+
+body{
+    background-color: rgba(63, 63, 216, 0.74);
+}
+
+
+
+#Header{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right:0px;
+    background-color: black;
+}
+
+#titulo_loja{
+    color: blueviolet;
+    font-size: xx-large;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    position: fixed;
+    top:5px;
+    left:100px;
+    
+}
+
+#foto_ovo{
+    position:fixed;
+    top:120px;
+    left:15px;
+
+}
+
+#foto_leite{
+    position:fixed;
+    top:160px;
+    left:460px;
+}
+
+#foto_pao{
+    position:fixed;
+    top:350px;
+    left:230px;
+}
+
+#foto_refri{
+    position:fixed;
+    top:350px;
+    left:470px;
+}
+
+
+
+.mercadoria-ovo{
+    position:fixed;
+    top:230px;
+    left:200px;
+
+}
+
+.mercadoria-leite{
+    position:fixed;
+    top:230px;
+    left:450px;
+
+}
+
+.mercadoria-pao{
+    position:fixed;
+    top:400px;
+    left:200px;
+
+}
+
+.mercadoria-refri{
+    position:fixed;
+    top:400px;
+    left:450px;
+
+}
+
+.conta{
+    position:fixed;
+    top:250px;
+    left:900px;
+    background-color: rgba(247, 247, 54, 0.733);
+    border-style: double;
+    height: 170px;
+    width: 300px;
+
+}
+
+/* parei aqui nessa parte , organizando o padding , a programaçao ja ta feita*/
+
+#resultado_titulo{
+    margin-left:62px;
+    color: rgb(190, 90, 90);
+    text-shadow: 1px 1px  rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#resultado{
+    font-size: xx-large;
+    
+    padding: 20px;
+    margin-top: 200px;
+    margin-left:115px;
+}
+
+#confirmar{
+    position:fixed;
+    top:500px;
+    left:1000px;
+
+}
+
+#verificar{
+    position:fixed;
+    top:460px;
+    left:1000px;
+
+}
+   
